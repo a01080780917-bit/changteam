@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>압력 감지 알림 시스템</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>압력 센서 모니터링</h1>
+
+    <div class="card">
+      <h2>초기값</h2>
+      <p id="baseValue">0</p>
+    </div>
+
+    <div class="card">
+      <h2>현재 압력값</h2>
+      <p id="currentValue">0</p>
+    </div>
+
+    <div class="card">
+      <h2>상태</h2>
+      <p id="status">정상</p>
+    </div>
+
+    <button id="setBaseBtn">현재값을 초기값으로 설정</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
